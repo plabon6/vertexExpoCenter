@@ -1,3 +1,7 @@
+:root{
+    --clr-primary: #3F87F5;
+}
+
 body{
     font-family: "Poppins", sans-serif;
 }
@@ -10,9 +14,81 @@ body{
     font-size: 3rem !important;
 }
 
+.carousel-item img{
+    filter: brightness(50%);
+}
+
+.myCard h3, .myCard h4, .myCard a{
+    font-family: "Roboto", sans-serif;
+}
+
+.myCard h3, .myCard h4{
+    color: #221d4f;
+}
+
+.myCard a{
+    background-color: #fef5fa;
+}
+
+.myCard h4{
+    font-size: 1.75rem !important;
+}
+
+.myCard p, .myCard li{
+    color: #848199;
+    display: flex;
+    align-items: center;
+}
+
+.myCard i{
+    background-color: #5243c217;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    color: #5243C2;
+    font-size: 1.5rem;
+} 
+
+.package h2{
+    font-size: 2.375rem !important;
+}
+
+.recommend{
+    background-color: var(--clr-primary);
+    -webkit-box-shadow: 0px 49px 60px -27px rgba(63,136,245,0.72);
+    -moz-box-shadow: 0px 49px 60px -27px rgba(63,136,245,0.72);
+    box-shadow: 0px 49px 60px -27px rgba(63,136,245,0.72);
+}
+
+.recommend li{
+    background-color: var(--clr-primary);
+}
+
+.recommend h3, .recommend h4, .recommend p, .recommend li, .recommend i{
+    color: white !important;
+}
+
+.recommend i{
+    background-color: #5293f6;
+}
+
+.hot{
+    right: 2px;
+    font-family: "Roboto", sans-serif;
+    padding: 5px 10px;
+    font-size: 0.875rem;
+}
+
 @media screen and (max-width: 768px) {
     .moment > .end-0{
         right: 50% !important;
         transform: translateX(50%);
+    }
+    .fs-1{
+        font-size: 1.5rem !important;
     }
 }
