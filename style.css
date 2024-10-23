@@ -18,6 +18,10 @@ body{
     filter: brightness(50%);
 }
 
+.momentBtn{
+    background-color: var(--clr-primary);
+}
+
 .myCard h3, .myCard h4, .myCard a{
     font-family: "Roboto", sans-serif;
 }
@@ -64,8 +68,23 @@ body{
     box-shadow: 0px 49px 60px -27px rgba(63,136,245,0.72);
 }
 
+.recommend::before{
+    content: ' ';
+    top: 0;
+    right: 0;
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-image: url(Images/Group\ 33161.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 200px -20px;
+    opacity: 0.2;
+}
+
 .recommend li{
-    background-color: var(--clr-primary);
+    background: transparent;
 }
 
 .recommend h3, .recommend h4, .recommend p, .recommend li, .recommend i{
