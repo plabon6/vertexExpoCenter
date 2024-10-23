@@ -102,6 +102,14 @@ body{
     font-size: 0.875rem;
 }
 
+.testCol{
+    width: 31.5%;
+}
+
+.accordion{
+    font-family: "Inter", sans-serif;
+}
+
 @media screen and (max-width: 768px) {
     .moment > .end-0{
         right: 50% !important;
@@ -109,5 +117,10 @@ body{
     }
     .fs-1{
         font-size: 1.5rem !important;
+    }
+}
+@media screen and (max-width: 576px) {
+    .testCol{
+        width: 100%;
     }
 }
