@@ -103,11 +103,21 @@ body{
 }
 
 .testCol{
-    width: 31.5%;
+    width: 29.5%;
 }
 
 .accordion{
     font-family: "Inter", sans-serif;
+}
+
+.firstDiv , .secondDiv{
+    font-family: "Manrope", sans-serif;
+}
+.firstDiv{
+    font-size: 0.875rem;
+}
+.secondDiv h5{
+    font-size: 1.125rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -117,6 +127,10 @@ body{
     }
     .fs-1{
         font-size: 1.5rem !important;
+    }
+
+    .testCol{
+        width: 100%;
     }
 }
 @media screen and (max-width: 576px) {
