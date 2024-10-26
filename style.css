@@ -2,6 +2,10 @@
     --clr-primary: #3F87F5;
 }
 
+.mainBgColor{
+    background-color: var(--clr-primary);
+}
+
 body{
     font-family: "Poppins", sans-serif;
 }
@@ -118,6 +122,19 @@ body{
 }
 .secondDiv h5{
     font-size: 1.125rem;
+}
+
+.formDiv{
+    width: 100%;
+    max-width: 700px;
+}
+
+.formDiv input{
+    width: 100%;
+}
+
+.btnSubscribe:hover{
+    background-color: black;
 }
 
 @media screen and (max-width: 768px) {
