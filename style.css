@@ -151,6 +151,10 @@ body{
     }
 }
 @media screen and (max-width: 576px) {
+    .width{
+        max-width: 350px;
+    }
+
     .testCol{
         width: 100%;
     }
