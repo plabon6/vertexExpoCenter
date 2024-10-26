@@ -142,6 +142,11 @@ body{
         right: 50% !important;
         transform: translateX(50%);
     }
+
+    .moment > .top-50{
+        top: 0 !important;
+    }
+
     .fs-1{
         font-size: 1.5rem !important;
     }
